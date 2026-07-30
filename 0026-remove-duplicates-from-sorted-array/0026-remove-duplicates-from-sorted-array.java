@@ -1,7 +1,8 @@
 class Solution {
     public int removeDuplicates(int[] nums) {
+//Using HashSet
+    
         // HashSet<Integer> set = new HashSet<>();
-
         // int index = 0;
         // for (int n : nums) {
         //     if (set.add(n)) {   // add returns false if duplicate
@@ -9,6 +10,9 @@ class Solution {
         //     }
         // }
         // return index;
+
+
+//Using Arrays only
 
         int n=nums.length;
         int i=0;
